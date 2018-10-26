@@ -14,7 +14,7 @@
                 <div class="col-10">
                     <img src="/vendor/horizon/img/horizon.svg">
                 </div>
-                <div class="col-2 text-right">
+                <div class="col-2 d-flex align-items-end justify-content-end">
                     <a href="#" class="home-link">
                         <i>
                             <svg>
