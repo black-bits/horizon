@@ -14,8 +14,13 @@
                 <div class="col-10">
                     <img src="/vendor/horizon/img/horizon.svg">
                 </div>
-                <div class="col-2">
-                    Back
+                <div class="col-2 text-right">
+                    <i>
+                        <svg>
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xlink:href="#zondicon-home"></use>
+                        </svg>
+                    </i>
                 </div>
             </div>
         </div>
