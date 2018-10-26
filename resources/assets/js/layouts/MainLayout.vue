@@ -3,7 +3,13 @@
     import MainSidebar from './MainSidebar.vue'
 
     export default {
-        components: {Status, MainSidebar}
+        components: {Status, MainSidebar},
+
+        computed: {
+            homeLink() {
+                return $('body').data('homeLink');
+            }
+        }
     }
 </script>
 
@@ -15,7 +21,7 @@
                     <img src="/vendor/horizon/img/horizon.svg">
                 </div>
                 <div class="col-2 d-flex align-items-end justify-content-end">
-                    <router-link :to="$('body').data('homeLink')" class="home-link">
+                    <router-link :to="homeLink" class="home-link">
                         <i>
                             <svg>
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink"
