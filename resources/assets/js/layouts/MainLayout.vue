@@ -11,8 +11,11 @@
     <div class="container">
         <div id="mainHeader" class="pt-4 pb-4">
             <div class="row">
-                <div class="col">
+                <div class="col-10">
                     <img src="/vendor/horizon/img/horizon.svg">
+                </div>
+                <div class="col-2">
+                    Back
                 </div>
             </div>
         </div>
