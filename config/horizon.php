@@ -97,9 +97,9 @@ return [
     | Home Link Configuration
     |--------------------------------------------------------------------------
     |
-    | Here you may define a home link to navigate back to your application.
+    | Here you may define a home link route name to navigate back to your application.
     |
     */
 
-    'home-link' => '/',
+    'home-link-name' => 'home',
 ];

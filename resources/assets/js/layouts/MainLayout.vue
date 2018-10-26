@@ -21,7 +21,9 @@
                     <img src="/vendor/horizon/img/horizon.svg">
                 </div>
                 <div class="col-2 d-flex align-items-end justify-content-end">
-                    <router-link :to="homeLink" class="home-link">
+
+
+                    <router-link :to="homeLink" class="home-link" v-show="homeLink">
                         <i>
                             <svg>
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink"

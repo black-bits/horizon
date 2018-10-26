@@ -7,7 +7,7 @@
         <link rel="icon" href="/vendor/horizon/img/favicon.png" />
     </head>
 
-    <body data-home-link="{{ config('horizon.home-link', null) }}">
+    <body data-home-link="{{ route(config('horizon.home-link-name', null)) }}">
         <div id="root"></div>
 
         <div style="height: 0; width: 0; position: absolute; display: none;">
